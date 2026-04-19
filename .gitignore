@@ -1,0 +1,43 @@
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Isaac / RL training outputs
+
+logs/
+outputs/
+runs/
+wandb/
+
+# temp
+
+*.log
+*.tmp
+
+# VSCode / IDE
+
+.vscode/
+.idea/
+
+# env
+
+.env
+.env_*
+venv/
+env/
+env_isaaclab/
+
+# IsaacLab artifacts
+
+*.usd
+*.usda
+*.usdc
+
+# checkpoints
+
+*.pt
+*.pth
+*.ckpt
